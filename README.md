@@ -17,8 +17,11 @@ Before getting to specific questions, let’s understand the problem and the dat
 1. What is the strategy?
 Spark Funds wants to invest where most other investors are investing. This pattern is often observed among early stage startup investors.
 
-2. Where did we get the data from? 
+2. Where did we get the data from?
 We have taken real investment data from crunchbase.com, so the insights you get may be incredibly useful.
+ Company details(companies.txt): A table with basic data of companies
+ Funding round details(rounds2.csv)
+ Sector Classification(mapping.csv): This file maps the numerous category names in the companies table (such 3D printing, aerospace, agriculture, etc.) to eight broad sector names. 
 
 3. What is Spark Funds’ business objective?
 The business objectives and goals of data analysis are pretty straightforward.
