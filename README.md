@@ -32,8 +32,6 @@ Sector analysis: Understanding the distribution of investments across the eight 
 
 4. How do you approach the case study? What are the deliverables?
 
-The entire case study is divided into checkpoints to help you navigate. For each checkpoint, you are advised to fill in the tables into the spreadsheet attached in the download segment. The tables are also mentioned under the 'Results Expected' section after each checkpoint. 
-
 # Checkpoint 1: Funding Type Analysis
 This is the first of the three goals of data analysis – investment type analysis.
 
