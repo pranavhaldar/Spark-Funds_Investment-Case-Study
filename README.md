@@ -1,4 +1,4 @@
-# Spark Funds | Investment Case Project
+# Spark Funds | Investment Case Study
 
 # Project Brief
 
