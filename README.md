@@ -1,10 +1,10 @@
 # Spark Funds | Investment Case Project
 
-Project Brief
+# Project Brief
 
 You work for Spark Funds, an asset management company. Spark Funds wants to make investments in a few companies. The CEO of Spark Funds wants to understand the global trends in investments so that she can take the investment decisions effectively.
 
-# Business and Data Understanding
+Business and Data Understanding
 
 Spark Funds has two minor constraints for investments:
 1. It wants to invest between 5 to 15 million USD per round of investment
@@ -34,7 +34,7 @@ Sector analysis: Understanding the distribution of investments across the eight 
 
 The entire case study is divided into checkpoints to help you navigate. For each checkpoint, you are advised to fill in the tables into the spreadsheet attached in the download segment. The tables are also mentioned under the 'Results Expected' section after each checkpoint. 
 
-Checkpoint 1: Funding Type Analysis
+# Checkpoint 1: Funding Type Analysis
 This is the first of the three goals of data analysis – investment type analysis.
 
 The funding types such as seed, venture, angel, etc. depend on the type of the company (startup, corporate, etc.), its stage (early stage startup, funded startup, etc.), the amount of funding (a few million USD to a billion USD), and so on. For example, seed, angel and venture are three common stages of startup funding.
@@ -49,7 +49,7 @@ Considering the constraints of Spark Funds, you have to decide one funding type 
 Calculate the average investment amount for each of the four funding types (venture, angel, seed, and private equity).
 Based on the average investment amount calculated above, which investment type do you think is the most suitable for Spark Funds?
 
-Checkpoint 2: Country Analysis
+# Checkpoint 2: Country Analysis
 This is the second goal of analysis — country analysis.
 
 Now that we know the type of investment suited for Spark Funds, let's narrow down the countries.
@@ -60,6 +60,26 @@ Spark Funds wants to see the top nine countries which have received the highest 
 
 Now we also know the three most investment-friendly countries and the most suited funding type for Spark Funds. Let us now focus on finding the best sectors in these countries.
 
+# Checkpoint 3: Sector Analysis 1
+This is the third goal of analysis — sector analysis.
 
+When we say sector analysis, we refer to one of the eight main sectors (named main_sector) listed in the mapping file (note that ‘Other’ is one of the eight main sectors). This is to simplify the analysis by grouping the numerous category lists (named ‘category_list’) in the mapping file. For example, in the mapping file, category_lists such as ‘3D’, ‘3D Printing’, ‘3D Technology’, etc. are mapped to the main sector ‘Manufacturing’.
+
+Also, for some companies, the category list is a list of multiple sub-sectors separated by a pipe (vertical bar |). For example, one of the companies’ category_list is Application Platforms|Real Time|Social Network Media.
+
+You discuss with the CEO and come up with the business rule that the first string before the vertical bar will be considered the primary sector. In the example above, ‘Application Platforms’ will be considered the primary sector.
+
+Expected Results: Code for a merged data frame with each primary sector mapped to its main sector.
+
+# Checkpoint 4: Sector Analysis 2
+Now we have a data frame with each company’s main sector (main_sector) mapped to it. When we say sector analysis, we refer to one of the eight main sectors.
+
+Also, we know the top three English speaking countries and the most suitable funding type for Spark Funds. Also, the range of funding preferred by Spark Funds is 5 to 15 million USD.
+
+Now, the aim is to find out the most heavily invested main sectors in each of the three countries (for funding type and investments range of 5-15 M USD).
+
+Result Expected 
+
+Based on the analysis of the sectors, which main sectors and countries would you recommend Spark Funds to invest in? Present your conclusions in the presentation. The conclusions are subjective, but it should be based on the basic strategy — invest in sectors where most investments are occurring. 
 
 Also, you have to prepare a short presentation document to present the results of your analysis to the CEO of Spark Funds. This should briefly describe the important results and recommendations.
